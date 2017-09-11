@@ -1,4 +1,5 @@
 # Homework list
+- [x] Exercise_02：
 - [x] Exercise_03:All levels
 - [x] Exercise_04:Chapter 1 problem 1.5: The decay of two kinds of particles
 - [x] Exercise_05:Chapter 1 problem 1.6: Population growth
