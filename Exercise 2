@@ -1,0 +1,3 @@
+# -*- coding: utf-8 -*-
+dic='王子睿'
+print(dic)
