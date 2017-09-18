@@ -1,5 +1,5 @@
 # Homework list
-- [x] [Exercise_02:打出自己的中文名](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%202)
+- [x] [Exercise_02:打出自己的中文名](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%202.md)
 - [ ] [Exercise_03:All levels]()
 - [ ] [Exercise_04:Chapter 1 problem 1.5: The decay of two kinds of particles]()
 - [ ] [Exercise_05:Chapter 1 problem 1.6: Population growth]()
