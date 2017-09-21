@@ -1,6 +1,6 @@
 # Homework list
 - [x] [Exercise_02:打出自己的中文名](https://github.com/wzrwisdom/compuational_physics_N2015301020068/tree/master/Exercise_02)
-- [ ] [Exercise_03:All levels]()
+- [ ] [Exercise_03:制作出动态的名字]()
 - [ ] [Exercise_04:Chapter 1 problem 1.5: The decay of two kinds of particles]()
 - [ ] [Exercise_05:Chapter 1 problem 1.6: Population growth]()
 - [ ] [Exercise_06:Chapter 2 problem 2.9&2.10: The cannon]()
