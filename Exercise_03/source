@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 20 21:52:41 2017
+
+@author: ASUS
+"""
+background_image_filename='20110621223313314.jpg'
+name_image_filename = '123.png'
+#指定图像文件名
+
+import pygame
+from pygame.locals import *
+from sys import exit
+pygame.init()
+screen=pygame.display.set_mode((640,480),0,32)
+pygame.display.set_caption("the motion of name")
+background=pygame.image.load(background_image_filename).convert()
+player=pygame.image.load(name_image_filename).convert()
+while True:
+   screen.blit(background,(0,0))
+   pygame.display.update()
+   position=(10,20)
+   x,y=position
+
+   for i in range(310):
+       screen.blit(background,(0,0))
+       screen.blit(player,position)
+       pygame.display.update()
+       x=x+2     
+       y=y+1
+       position=(x,y)
+       print(x,y)
+       pygame.time.delay(10) 
+   for event in pygame.event.get():
+       if event.type==pygame.QUIT:
+           pygame.quit()
+           exit()
