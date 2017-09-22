@@ -11,6 +11,8 @@
 
 ## 正文  
 [代码](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_03/source)
+![图片](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_03/123.png)
+![视频](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_03/2.wmv)
 
 ## 结论  
 本次作业实验了利用pygame输出移动图形的功能，但编程过程较复杂，期待利用python的画图功能进一步改善
