@@ -11,7 +11,7 @@ where for simplicity we have assumed that the two types of decay are characteriz
 ## 正文  
 　　[source](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_04/source),
     [得到的数据](),
-    ![图片]()
+    ![图片](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_04/decay%20of%20nuclei.png)
   　在第二次修改中，给图增加了单位，调整了字体使之更规范。  
  　为解决课本上的习题，需用到的的函数库有  
 　　　　　　`import pickle`；  
