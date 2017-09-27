@@ -1,4 +1,4 @@
-# 计算物理Chapter1(第4次) 作业  
+# 计算物理Chapter1 作业  
 ## 摘要  
 　　本次作业内容为教材课后习题1.5：两种原子核各有几率衰变成另一种核，因此它们的衰变规律将由两个互相耦合的一阶线性微分方程描述。我采用课本上介绍的欧拉方法来解决此问题，并用图像表示出了两种核数目随时间的变化规律。  
 　　另外，根据直观感觉，欧拉法的计算精度应该随着步长的减小而增加，因此计算中采用了几种不同的步长，并通过图形展示出了不同步长下求得的数值解与解析解的偏差，计算发现，当步长小于衰变常数的1/20时，欧拉法的计算精度是十分可观的。  
@@ -10,7 +10,8 @@
 where for simplicity we have assumed that the two types of decay are characterized by the same time constant, tau. Solve this system of equations for the numbers of nuclei, N_A and N_B, as functions of time. Consider different initial conditions, such as N_A=100, N_B=0, etc., and take tau =1s. Show that you numerical results are consistent with the idea that the system reaches a steady state in which N_A and N_B are constant. In such a steady state, the time dericatives dN_A/dt and dN_B/dt should vanish.
 ## 正文  
 　　[source](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_04/source),
-    [得到的数据](),
+    得到的数据[1](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_04/nuclei_decay_two_type_pickle.txt)
+    [2](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_04/nuclei_decay_two_type_txt.txt),
     ![图片](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_04/decay%20of%20nuclei.png)
   　在第二次修改中，给图增加了单位，调整了字体使之更规范。  
  　为解决课本上的习题，需用到的的函数库有  
