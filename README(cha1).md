@@ -9,7 +9,7 @@
 　　　　　　　　　　　　　　　d N_B /dt = N_A/tau - N_B/tau  
 where for simplicity we have assumed that the two types of decay are characterized by the same time constant, tau. Solve this system of equations for the numbers of nuclei, N_A and N_B, as functions of time. Consider different initial conditions, such as N_A=100, N_B=0, etc., and take tau =1s. Show that you numerical results are consistent with the idea that the system reaches a steady state in which N_A and N_B are constant. In such a steady state, the time dericatives dN_A/dt and dN_B/dt should vanish.
 ## 正文  
-　　[source](),
+　　[source](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_04/source),
     [得到的数据](),
   　在第二次修改中，给图增加了单位，调整了字体使之更规范。  
  　为解决课本上的习题，需用到的的函数库有  
