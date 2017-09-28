@@ -24,3 +24,4 @@ where for simplicity we have assumed that the two types of decay are characteriz
   ## 致谢 
   　 matplotlib的教程[点击进入](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)  
 　　python的数据读取和写入教程[点击进入](http://www.ibm.com/developerworks/cn/opensource/os-python8/)
+    蔡浩老师的PPT[点击进入](https://www.evernote.com/shard/s140/sh/d351f9a3-8076-4274-944b-7043e0ce8cf3/4f89e8630604ea23262f00b3ed11f8ad)
