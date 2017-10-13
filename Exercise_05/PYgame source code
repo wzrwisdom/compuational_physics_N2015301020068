@@ -1,0 +1,88 @@
+import sys
+import math
+import time
+import numpy 
+from matplotlib import pyplot
+import pygame
+from pygame.locals import *
+
+pygame.init()
+
+class PROJECTILE(object):     
+    def __init__(self,_x0,_y0,_v0,_theta0,_B_m,_a,_alpha,_T0,_g,_dt):
+        self.x= [float(_x0)]
+        self.y= [float(_y0)]
+        self.vx= _v0*math.cos(_theta0)
+        self.vy= _v0*math.sin(_theta0)
+        self.v0, self.theta0= _v0, _theta0
+        self.v= _v0
+        self.B= float(_B_m)        
+        self.a, self.alpha, self.T0= float(_a), float(_alpha), float(_T0)
+        self.g=_g
+        self.dt= float(_dt)
+
+    def calculate(self):
+        while True :
+            if self.y[-1]<-1E-4 :
+                self.yi= self.y[-1]+self.vy*self.dt
+                self.xi= self.x[-1]+self.vx*self.dt
+                self.gama= -self.y[-1]/self.yi
+                self.x.append((self.x[-1]+self.gama*self.xi)/(self.gama+1.))
+                self.y.append(0.)
+                break
+            self.x.append(self.vx*self.dt+self.x[-1])
+            self.y.append(self.vy*self.dt+self.y[-1])
+            self.vx= -self.B*((1-self.a*self.y[-2]/self.T0)**self.alpha)\
+                           *self.vx*self.v*self.dt+self.vx
+            self.vy= -self.B*((1-self.a*self.y[-2]/self.T0)**self.alpha)\
+                           *self.vy*self.v*self.dt+self.vy-self.g*self.dt
+            self.v= math.sqrt(self.vx**2+self.vy**2)
+
+    def store_max(self,x,v,theta):          # x,v,theta: to store the max range
+        x.append(self.x[-1])                #            of the projectile
+        v.append(self.v0)
+        theta.append(self.theta0*180./np.pi)
+    def plot(self):                         # plot the orbit
+        pl.plot(self.x,self.y,'--')
+        pl.annotate(r'$\theta$'+'= '+str(self.theta0*180./np.pi)+r'$^{o}$',
+            xy=(self.x[int(len(self.x)/5)],self.y[int(len(self.x)/5)]), 
+            fontsize=12)
+
+
+background_image = pygame.image.load ("background.jpg")
+cannon_image     = pygame.image.load ("cannon.png")
+
+
+screen = pygame.display.set_mode((1324, 496), 0, 32)
+pygame.display.set_caption("Cannon")
+
+clock = pygame.time.Clock()
+
+x0, y0= 0., 0.
+v0= 700.
+B_m, a, alpha, T0, g= 4E-5, 6.5E-3, 2.5, 25.+273.5, 9.8
+dt= 0.5
+cannonShell =  PROJECTILE(x0, y0, v0, np.pi/4, B_m, a, alpha, T0, g, 0.5)
+
+
+i = 0
+while True:
+ 
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            exit()                      
+            
+    screen.blit(background_image, (0,0))
+    
+    ccx = cx[i]/50
+    ccy = 400 - cy[i]/50
+    screen.blit(cannon_image, (ccx, ccy))
+    i = i+1
+    pygame.time.wait(5)
+
+
+    time_passed = clock.tick(30)
+    
+    
+    pygame.display.update()
