@@ -2,8 +2,8 @@
 - [x] [Exercise_02:打出自己的中文名](https://github.com/wzrwisdom/compuational_physics_N2015301020068/tree/master/Exercise_02)
 - [x] [Exercise_03:制作出动态的名字](https://github.com/wzrwisdom/compuational_physics_N2015301020068/tree/master/Exercise_03)
 - [x] [Exercise_04:Chapter 1 problem 1.5: The decay of two kinds of particles](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/README(cha1).md)
-- [ ] [Exercise_05:Chapter 1 problem 1.6: Population growth]()
-- [ ] [Exercise_06:Chapter 2 problem 2.9&2.10: The cannon]()
+- [x] [Exercise_05:Chapter 2 problem 2.9: The cannon]()
+- [ ] [Exercise_06:Chapter 2 problemn
 - [ ] [Exercise_07:Chapter 2 problem 2.19: The spin of baseball and Visaual motion of baseball]()
 - [ ] [Exercise_08:Chapter 3 problem 3.4: Non-linear oscillator]()
 - [ ] [Exercise_09:Chapter 3 problem 3.1: Strange attractor]()
