@@ -6,14 +6,16 @@
 
 ### 抛体的运动
 　　抛体运动是牛顿运动方程处理力学问题的典范。在不计入空气阻力的情况下，抛体只受到重力，因而其运动规律由牛顿运动方程给出 <br>
-    其中g是重力加速度。这是一个十分简单的方程，容易解析的求解。但倘若考虑其他的力(例如空气阻力等)，则还需在方程右边增补其他项，这将会使得实际抛体的运动情况更加复杂，很多情况下实际抛体的运动方程可以写为 <br>
-    其中，是单位质量抛体在，轴方向受力，其形式需根据实际情况确定。在许多情况下，仅考虑空气阻力对速度二次方的依赖项，再考虑空气是热的不良导体，建立大气绝热模型可以具体给出，的形式为 <br>
-    其中为抛体质量，是不显著依赖于抛体性质和状态的常数，对空气约为，是热力学温度，而是经验数，约是。因此，方程组结合一定的初始条件就完全确定了抛体的运动状态。<br>
+  <img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;$$\left\{\begin{aligned}\frac{d^{2}x}{dt^{2}}=0\\&space;\frac{d^{2}y}{dt^{2}}=-g\end{aligned}\right.$$" title="$$\left\{\begin{aligned}\frac{d^{2}x}{dt^{2}}=0\\ \frac{d^{2}y}{dt^{2}}=-g\end{aligned}\right.$$" /><br>
+    其中g是重力加速度。这是一个十分简单的方程，容易解析的求解。但倘若考虑其他的力(例如空气阻力等)，则还需在方程右边增补其他项，这将会使得实际抛体的运动情况更加复杂，很多情况下实际抛体的运动方程可以写为 <br><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;$$\left\{\begin{aligned}\frac{d^{2}x}{dt^{2}}=f_{x}(x,y,v_{x},v_{y},;t)\\&space;\frac{d^{2}y}{dt^{2}}=-g&plus;f_{y}(x,y,v_{x},v_{y},;t)\end{aligned}\right.$$" title="$$\left\{\begin{aligned}\frac{d^{2}x}{dt^{2}}=f_{x}(x,y,v_{x},v_{y},;t)\\ \frac{d^{2}y}{dt^{2}}=-g+f_{y}(x,y,v_{x},v_{y},;t)\end{aligned}\right.$$" /><br> 
+    其中 ![](https://latex.codecogs.com/gif.latex?$f_{x}(x,y,v_{x},v_{y},;t),f_{y}(x,y,v_{x},v_{y},;t)$) 是单位质量抛体在x，y轴方向受力，其形式需根据实际情况确定。在许多情况下，仅考虑空气阻力对速度二次方的依赖项，再考虑空气是热的不良导体，建立大气绝热模型可以具体给出<a href="https://www.codecogs.com/eqnedit.php?latex=$f_{x},f_{y}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$f_{x},f_{y}$" title="$f_{x},f_{y}$" /></a>的形式为 <br>
+    其中m为抛体质量，B是不显著依赖于抛体性质和状态的常数，<a href="https://www.codecogs.com/eqnedit.php?latex=$\alpha$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\alpha$" title="$\alpha$" /></a>对空气约为2.5，T是热力学温度，而a是经验数，<a href="https://www.codecogs.com/eqnedit.php?latex=$6.5\ast&space;10^{-3}K/m$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$6.5\ast&space;10^{-3}K/m$" title="$6.5\ast 10^{-3}K/m$" /></a>。因此，方程组结合一定的初始条件就完全确定了抛体的运动状态。<br>
 
 ### 欧拉法求解抛体运动
  　　上面的方程形式较为复杂，适宜用数值方法求解，我们这里使用课本上介绍的欧拉法来求解上面的方程。将二阶方程降阶，并将微分近似以差分代替，即得到近似描述抛体运动的四个代数方程 <br>
-   因此，只要知道前一时刻抛体的位置、速度，即可求得下一时刻时刻抛体的位置、速度；如此反复迭代，最终可以得到任意时刻抛体的运动情况。此即下面求解抛体运动的原理。 
-由于上面的方程是近似成立的，因而不可避免的要引入误差。不难证明欧拉法每一步的误差量级是，而在给定总时间内的总体误差将是量级，因此适当缩小步长将有助于提高运算精度，但往往会使计算时间以增加，因此需要权衡两者利弊，取一在给定时间不产生显著误差的的步长即可，下面的计算将会体现这一点。<br>
+   <a href="https://www.codecogs.com/eqnedit.php?latex=$$\left\{\begin{aligned}x_{i&plus;1}=v_{x,i}\Delta&space;t&plus;x_{i}\\v_{x,i&plus;1}=f_{x}\Delta&space;t&plus;v_{x,i}\\y_{i&plus;1}=v_{y,i\Delta&space;t}&plus;y_{i}\\v_{y,i&plus;1}=(-g&plus;f_{x})\Delta&space;t&plus;v_{y,t}\end{aligned}\right.$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$\left\{\begin{aligned}x_{i&plus;1}=v_{x,i}\Delta&space;t&plus;x_{i}\\v_{x,i&plus;1}=f_{x}\Delta&space;t&plus;v_{x,i}\\y_{i&plus;1}=v_{y,i\Delta&space;t}&plus;y_{i}\\v_{y,i&plus;1}=(-g&plus;f_{x})\Delta&space;t&plus;v_{y,t}\end{aligned}\right.$$" title="$$\left\{\begin{aligned}x_{i+1}=v_{x,i}\Delta t+x_{i}\\v_{x,i+1}=f_{x}\Delta t+v_{x,i}\\y_{i+1}=v_{y,i\Delta t}+y_{i}\\v_{y,i+1}=(-g+f_{x})\Delta t+v_{y,t}\end{aligned}\right.$$" /></a><br>
+   因此，只要知道前一时刻<a href="https://www.codecogs.com/eqnedit.php?latex=$$t_{i}=i\Delta&space;t$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$t_{i}=i\Delta&space;t$$" title="$$t_{i}=i\Delta t$$" /></a>抛体的位置、速度，即可求得下一时刻<a href="https://www.codecogs.com/eqnedit.php?latex=$$t_{i&plus;1}=(i&plus;1)\Delta&space;t$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$t_{i&plus;1}=(i&plus;1)\Delta&space;t$$" title="$$t_{i+1}=(i+1)\Delta t$$" /></a>时刻抛体的位置、速度；如此反复迭代，最终可以得到任意时刻抛体的运动情况。此即下面求解抛体运动的原理。 
+由于上面的方程是近似成立的，因而不可避免的要引入误差。不难证明欧拉法每一步的误差量级是<a href="https://www.codecogs.com/eqnedit.php?latex=$$\Delta&space;t^{2}$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$\Delta&space;t^{2}$$" title="$$\Delta t^{2}$$" /></a>，而在给定总时间内的总体误差将是<a href="https://www.codecogs.com/eqnedit.php?latex=$$\Delta&space;t$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$\Delta&space;t$$" title="$$\Delta t$$" /></a>量级，因此适当缩小步长将有助于提高运算精度，但往往会使计算时间以增加，因此需要权衡两者利弊，取一在给定时间不产生显著误差的的步长即可，下面的计算将会体现这一点。<br>
 
 ### 抛体运动的研究
 
@@ -22,14 +24,14 @@
 > * 运动方程的解 空气阻力使得抛体(这里不妨取作炮弹)的运动情况变得复杂，但并不会为数值求解炮弹的抛体运动带来多大麻烦。我们利用欧拉法求解炮弹抛体运动的差分方程即可得到炮弹运动的解，程序在github中给出[source code](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_05/Source%20code)其运动图像如下图1左图所示。![图片](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_05/fig_projectile.png)
 
 > * 数值收敛性分析 
-由于我们仅仅对方程进行数值求解，而数值步长是决定解的好坏的决定性因素。如背景中所说，过长的步长将会使解显著偏离真实运动，而过长的步短则会使计算缓慢。我们逐步减小步长取值，直到解不显著依赖于步长选取为止，如上图1中图所示。我们取步长分别为 ， ， ， ， ，可以发现随着步长减小，抛体运动轨迹形态逐渐发生变化，当步长取到 和时，两者轨迹不再有明显差别，因此可以断定<br>
+由于我们仅仅对方程进行数值求解，而数值步长<a href="https://www.codecogs.com/eqnedit.php?latex=$$\Delta&space;t$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$\Delta&space;t$$" title="$$\Delta t$$" /></a>是决定解的好坏的决定性因素。如背景中所说，过长的步长将会使解显著偏离真实运动，而过长的步短则会使计算缓慢。我们逐步减小步长取值，直到解不显著依赖于步长选取为止，如上图1中图所示。我们取步长分别为<a href="https://www.codecogs.com/eqnedit.php?latex=$$\Delta&space;t$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$\Delta&space;t$$" title="$$\Delta t$$" /></a>=20.00s ，15.00s ，5.00s ，0.50s ，0.10s，可以发现随着步长减小，抛体运动轨迹形态逐渐发生变化，当步长取<a href="https://www.codecogs.com/eqnedit.php?latex=$$\Delta&space;t$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$\Delta&space;t$$" title="$$\Delta t$$" /></a>到0.50s和0.10s时，两者轨迹不再有明显差别，因此可以断定<br>
 数值解是收敛的，不会在步长较小时出现振荡的情况，因此可以相信解的准确性；<br>
-当步长取到 时，再减小步长已经不能显著改善解的精确性，并且会延长计算时间。因此我们将选定作为我们的步长，在后面的计算中，也一律使用此步长进行计算。<br>
+当步长取到 0.50s时，再减小步长已经不能显著改善解的精确性，并且会延长计算时间。因此我们将选定0.50作为我们的步长，在后面的计算中，也一律使用此步长进行计算。<br>
 
 > * 与无空气阻力的差别
 直观上不难相信，空气阻力的存在会显著影响炮弹运动的性态。我们只需分别给出有、无空气阻力时的炮弹运动轨迹，即可看出两者的差别，如图1右图所示。我们分别作出两种情况下当抛射角取不同值时的轨迹，由图以及具体计算可以得到如下结论 <br>
 空气阻力将使炮弹的射程显著减小，减小量几乎是无空气阻力时的，因此要提高炮弹的射程，一个有效的办法就是减少空气阻力，技术上可以通过适当设计炮弹形状而做到，或者采用燃料推进将炮弹送至高空以减少空气阻力；<br>
-空气阻力还会影响炮弹轨迹的性态。具体来讲，数值地不难得到无空气阻力时炮弹最大射程(约)是当抛射角为时取到，而有空气阻力时可以计算炮弹最大射程(约)则是当抛射角为时取到,可见，空气阻力还会显著影响射程对抛射角的依赖关系，因此实际运用中应根据实际阻力条件确定发射角以保证炮弹能打得更远。<br>
+空气阻力还会影响炮弹轨迹的性态。具体来讲，数值地不难得到无空气阻力时炮弹最大射程(约50250m)是当抛射角为45度时取到，而有空气阻力时可以计算炮弹最大射程(约24550)则是当抛射角为时43度取到,可见，空气阻力还会显著影响射程对抛射角的依赖关系，因此实际运用中应根据实际阻力条件确定发射角以保证炮弹能打得更远。<br>
 
 # 小结
     本次作业讨论了空气阻力存在时炮弹飞行轨迹问题，讨论了欧拉法解炮弹轨迹问题的数值解收敛性问题，分析了有、无空气阻力时炮弹轨迹差异，并将此方法联系到实际的辅助精确打击系统，分别给出了炮弹出膛速度确定时发射角问题，炮弹出膛速度不定时最小抛射速度问题。本程序的方法和结果将对炮弹发射问题具有一定的借鉴意义。
