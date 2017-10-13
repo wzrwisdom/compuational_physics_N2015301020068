@@ -19,7 +19,7 @@
 
 ####有空气阻力的情形
 
-> *运动方程的解 空气阻力使得抛体(这里不妨取作炮弹)的运动情况变得复杂，但并不会为数值求解炮弹的抛体运动带来多大麻烦。我们利用欧拉法求解炮弹抛体运动的差分方程即可得到炮弹运动的解，程序在github中给出[source code](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_05/Source%20code)其运动图像如下图1左图所示。![图片]()
+> *运动方程的解 空气阻力使得抛体(这里不妨取作炮弹)的运动情况变得复杂，但并不会为数值求解炮弹的抛体运动带来多大麻烦。我们利用欧拉法求解炮弹抛体运动的差分方程即可得到炮弹运动的解，程序在github中给出[source code](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_05/Source%20code)其运动图像如下图1左图所示。![图片](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_05/fig_projectile.png)
 
 > *数值收敛性分析 
 由于我们仅仅对方程进行数值求解，而数值步长是决定解的好坏的决定性因素。如背景中所说，过长的步长将会使解显著偏离真实运动，而过长的步短则会使计算缓慢。我们逐步减小步长取值，直到解不显著依赖于步长选取为止，如上图1中图所示。我们取步长分别为 ， ， ， ， ，可以发现随着步长减小，抛体运动轨迹形态逐渐发生变化，当步长取到 和时，两者轨迹不再有明显差别，因此可以断定<br>
