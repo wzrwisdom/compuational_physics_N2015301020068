@@ -4,7 +4,7 @@
 - [x] [Exercise_04:Chapter 1 problem 1.5: The decay of two kinds of particles](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/README(cha1).md)
 - [x] [Exercise_05:Chapter 2 problem 2.9: The cannon](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/README(chap2).md)
 - [x] [Exercise_06:Chapter 2 problem 2.19: The spin of baseball and Visaual motion of baseball](https://www.zybuluo.com/mdeditor#917161-full-reader)
-- [ ] [Exercise_07:Chapter 3 : Chaos in the Driven Non-linear Pendulum](https://www.zybuluo.com/mdeditor#929260)
+- [x] [Exercise_07:Chapter 3 : Chaos in the Driven Non-linear Pendulum](https://www.zybuluo.com/mdeditor#929260-full-reader)
 - [ ] [Exercise_09:Chapter 3 problem 3.1: Strange attractor]()
 - [ ] [Exercise_10:Chapter 3 problem 3.31:Billiard ball on diverse table]()
 - [ ] [Exercise_11:Chapter 4 problem 4.11: The percession of Mercury]()
