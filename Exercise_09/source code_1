@@ -1,0 +1,95 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Nov  9 23:16:39 2017
+
+@author: ASUS
+"""
+
+import numpy as np
+import pylab as pl
+from math import sqrt
+
+x=0.5
+y=0
+t=0
+
+vx=0.3
+vy=0.6
+Vx=[]
+Vy=[]
+X=[]
+Y=[]
+T=[]
+r=0.75
+dt=0.01
+while t<=400:
+    if r>=0.5 and -1<=x<=1 and -1<=y<=1:
+        X.append(x)
+        Y.append(y)
+        T.append(t)
+        Vx.append(vx)
+        Vy.append(vy)
+        x=x+vx*dt
+        y=y+vy*dt
+        t=t+dt
+        r=sqrt(x**2+y**2)
+    else:
+        x=X[-1]
+        y=Y[-1]
+        t=T[-1]
+        dt_small=dt/100
+        r=sqrt(x**2+y**2)
+        while r>=0.5 and -1<=x<=1 and -1<=y<=1:
+            X.append(x)
+            Y.append(y)
+            T.append(t)
+            x=x+vx*dt_small
+            y=y+vy*dt_small
+            t=t+dt_small
+            r=sqrt(x**2+y**2)
+            Vx.append(vx)
+            Vy.append(vy)
+            if r<0.5:
+                vx=vx-2*(x*vx+y*vy)*4*x
+                vy=vy-2*(x*Vx[-1]+y*vy)*4*y
+            elif x<-1 or x>1:
+                vx=-vx
+            elif y<-1 or y>1:
+                vy=-vy
+
+s=-0.5
+S=[]
+M=[]
+ds=0.01
+while -0.5<=s<=0.5:
+    M.append(sqrt(0.25-s*s))
+    S.append(s)
+    M.append(-sqrt(0.25-s*s))
+    S.append(s)
+    s=s+ds
+s=-1
+while s<=1:
+    M.append(1)
+    S.append(s)
+    M.append(-1)
+    S.append(s)
+    s=s+dt
+m=-1
+while m<=1:
+    S.append(-1)
+    M.append(m)
+    S.append(1)
+    M.append(m)
+    m +=ds
+
+def plot():
+    pl.plot(X,Y,label='trajectory')
+    pl.scatter(S,M, c='k', marker='o')
+    pl.title('trajectory')
+    pl.xlabel('$x (m)$')
+    pl.ylabel('$y (m)$')
+    pl.xlim(-1,1)
+    pl.ylim(-1,1)
+    pl.show()
+
+plot()
