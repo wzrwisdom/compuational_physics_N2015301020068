@@ -14,8 +14,8 @@
 这几个功能应该都是在一定时间内能够实现的简单功能，而只要将他们合理的组合起来就是一个完整的打砖块游戏了~
 
 ## 小球的绘制和移动
-![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/midterm%20homework/1.png)
-下面画个会动的小球吧：
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/midterm%20homework/1.png)<br>
+下面画个会动的小球吧：<br>
 ![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/midterm%20homework/2.png)
 ## 碰撞检测
 小球一出来就开始跑，一会儿就不见了。这一步要让它碰到边界就反弹回去。
