@@ -6,7 +6,8 @@
 - [x] [Exercise_06:Chapter 2 problem 2.19: The spin of baseball and Visaual motion of baseball](https://www.zybuluo.com/mdeditor#917161-full-reader)
 - [x] [Exercise_07:Chapter 3 : Chaos in the Driven Non-linear Pendulum](https://www.zybuluo.com/mdeditor#929260-full-reader)
 - [x] [Exercise_08:Chapter 3 Lorenz model](https://www.zybuluo.com/mdeditor#full-reader)
-- [ ] [Exercise_10:Chapter 3 problem 3.31:Billiard ball on diverse table]()
+- [x] [Exercise_09:Chapter 3 problem 3.31:Billiard ball on diverse table]()
+- [x] [期中作业：pygame小游戏---打砖块]（）
 - [ ] [Exercise_11:Chapter 4 problem 4.11: The percession of Mercury]()
 - [ ] [Exercise_12:Chapter 4 problem 4.18: The Kirkwood Gap]()
 - [ ] [Exercise_13:Chapter 5 problem 5.7: The Jacobi method v.s. The SOR algorithm]()
