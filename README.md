@@ -7,7 +7,7 @@
 - [x] [Exercise_07:Chapter 3 : Chaos in the Driven Non-linear Pendulum](https://www.zybuluo.com/mdeditor#929260-full-reader)
 - [x] [Exercise_08:Chapter 3 Lorenz model](https://www.zybuluo.com/mdeditor#full-reader)
 - [x] [Exercise_09:Chapter 3 problem 3.31:Billiard ball on diverse table](https://www.zybuluo.com/mdeditor#946551-full-reader)
-- [x] [期中作业：pygame小游戏---打砖块]()
+- [x] [期中作业：pygame小游戏---打砖块](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/midterm%20homework/www.md)
 - [ ] [Exercise_11:Chapter 4 problem 4.11: The percession of Mercury]()
 - [ ] [Exercise_12:Chapter 4 problem 4.18: The Kirkwood Gap]()
 - [ ] [Exercise_13:Chapter 5 problem 5.7: The Jacobi method v.s. The SOR algorithm]()
