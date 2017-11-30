@@ -52,31 +52,31 @@ When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?1000
 The motion of the Earth is completely unstable. However, in the case of ![](http://latex.codecogs.com/gif.latex?1000m_J), the mass of the Jupiter is of the order of the Sun, so the simulation to treat the Sun stationary is not appropriate here.  
 
 To have a clearer picture of the influence of the mass of the Jupiter on the motion of the Earth, the animation below is the trajectories of various Jupiter masses.  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/1.stationary.gif)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/1.stationary.gif)  
 
 ## 5.2 The Sun is Not Stationary  
 This is demonstrated in both the Rest Frame and the Center-of-Mass (COM) Frame.
 When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?m_J)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/figure_6.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/figure_6.png)  
 The motion of the system is almost stable with three planets circling around the Sun.  
 
 When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?20m_J)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/figure_7.png):  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/figure_7.png):  
 The motion of the system is less stable. In the Rest Frame, the Earth and the Jupiter are under procession and the Sun is also moving. In the COM Frame, we can see the Sun is circling around some point.  
 
 When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?100m_J)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/figure_8.png):  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/figure_8.png):  
 The motion of the system is hardly stable.  
 
 When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?300m_J)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/figure_9.png) : 
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/figure_9.png) : 
 The motions of each planet in the system is complicated and almost chaotic.
 
 To grasp a deeper understanding of the Three-Body Simulation, animations are made in the Rest Frame and the COM Frame as follows. The variance of the mass of the Jupiter is marked in the figures.  
 In the Rest Frame:  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/2.1restframe.gif)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/2.1restframe.gif)  
 In the COM Frame:  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/2.2COMframe.gif)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/2.2COMframe.gif)  
 
 # 6. Acknowledgement and Reference
 - [codecogs](http://latex.codecogs.com/)
