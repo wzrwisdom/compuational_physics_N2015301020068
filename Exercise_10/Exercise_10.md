@@ -32,23 +32,23 @@ Code for [the Sun is NOT stationary](https://github.com/wzrwisdom/compuational_p
 ## 5.1 The Sun is stationary 
 The mass of the Jupiter is changed so see its effect on the motion of the Earth.  The initial condition is ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7Br_E%7D%3D%281.%2C0.%29%2C%5Coverrightarrow%7Br_J%7D%3D%285.2%2C0.%29) and ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7Bv_E%7D%3D%280.%2C2%5Cpi%29%2C%5Coverrightarrow%7Bv_J%7D%3D%280.%2C2%5Cpi/%20%5Csqrt%7B5.2%7D%29)  
 When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?m_J)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/figure_1.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/figure_1.png)  
 The motion of the Earth is almost stable, thus it is almost not influenced.  
 
 When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?10m_J)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/figure_2.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/figure_2.png)  
 The motion of the Earth is almost stable with little procession.  The influence is small.  
 
 When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?100m_J)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/figure_3.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/figure_3.png)  
 The motion of the Earth is hardly stable and the procession is clear.  
 
 When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?300m_J)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/figure_4.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/figure_4.png)  
 The procession is clear.  
 
 When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?1000m_J)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/figure_5.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/figure_5.png)  
 The motion of the Earth is completely unstable. However, in the case of ![](http://latex.codecogs.com/gif.latex?1000m_J), the mass of the Jupiter is of the order of the Sun, so the simulation to treat the Sun stationary is not appropriate here.  
 
 To have a clearer picture of the influence of the mass of the Jupiter on the motion of the Earth, the animation below is the trajectories of various Jupiter masses.  
