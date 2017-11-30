@@ -24,8 +24,8 @@ Because ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7BGm_Sm_x%7D%7Br%5Er%7D%
 we have ![](http://latex.codecogs.com/gif.latex?v%3D%5Csqrt%7B%5Cfrac%7BGm_S%7D%7Br%7D%7D)  
 
 # 4. Code
-Code for [the Sun is tationary](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/12.1.1.py)  
-Code for [the Sun is NOT stationary](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/12.1.2.py)  
+Code for [the Sun is tationary](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/source1)  
+Code for [the Sun is NOT stationary](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/source2)  
 
 
 # 5. Running and Analysis
