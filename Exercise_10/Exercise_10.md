@@ -1,4 +1,4 @@
-# Exercise 12---the three-body problem (the Sun & the Earth & the Jupiter) 
+# Exercise 10---the three-body problem (the Sun & the Earth & the Jupiter) 
 2015301020068 王子睿 
 
 # 1. Abstract
