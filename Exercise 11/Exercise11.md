@@ -95,6 +95,5 @@ When ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.1) is changed to ![](h
 Thus, the number of iteration satisfies <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7Biter%7D%5Csim%20L%5E2" style="border:none;" />  
 
 # 6. Acknowledgement and Reference
-- [codecogs](http://latex.codecogs.com/)
 - Computational Physics, Nicholas J. Giordano & Hisao Nakanishi
 - [Matplotlib Tutorial](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)
