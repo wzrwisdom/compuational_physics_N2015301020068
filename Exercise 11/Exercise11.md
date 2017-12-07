@@ -1,4 +1,4 @@
-Exercise 12--- Electric Potential and Field under Laplace's Equation
+Exercise 11--- Electric Potential and Field under Laplace's Equation
 2015301020068   王子睿 
 
 # 1. Abstract
@@ -10,9 +10,9 @@ In regions with no source of electric charge, the electric potential obeys the s
 Different from the differential equations that are given initial conditions and that can be solved by Euler method or Runge-Kutta method, Laplace's equation is often introduced with boundary conditions, which specify the value on some surface in the space. Alternatively, the boundary conditions might be given in terms of the electric field, which is proportional to the gradient of electric potential.  
 Thus, the relaxation method is introduced to solve the project. It is convenient for dealing with the class of partial differential equations known as ellipitic equations, of which Laplace's equation is one example.  
 Here the problem is to solve the potential distribution of the space with two electrical plates:  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/1.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/1%20(1).png)  
 symetry propertie indicates that only one fourth of the square is needed to calculate, so the first quadrant is chosen as the interest regime, that is  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/2.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/2%20(1).png)  
 
 
 # 3. Methodology and Solutions
@@ -73,23 +73,23 @@ The code for [Gauss-Seidel Method](https://github.com/JunyiShangguan/computation
 ## 5.1 Jacobi Relaxation Method
 When ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.1), the results are as follows:  
 The number to iterate is 67  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_1.png)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_2.png)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_3.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/figure_1%20(2).png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/figure_2%20(1).png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/figure_3%20(1).png)  
 
 When ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.05), the results are as follows:  
 The number to iterate is 217  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_4.png)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_5.png)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_6.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/figure_4%20(1).png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/figure_5%20(1).png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/figure_6%20(1).png)  
 It can be induced that when ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.1) is changed to ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.05), the number of iteration increases from 67 to 217, almost four times it used to be.  
 
 ## 5.2 Gauss-Seidel Relaxation Method
 When ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.1), the results are as follows:  
 The number to iterate is 57  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_7.png)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_8.png)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_9.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/figure_7%20(1).png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/figure_8%20(1).png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/figure_9%20(1).png)  
 
 When ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.1) is changed to ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.05), the number of iteration increases from 57 to 188, also almost four times it used to be.  
 Thus, the number of iteration satisfies <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7Biter%7D%5Csim%20L%5E2" style="border:none;" />  
