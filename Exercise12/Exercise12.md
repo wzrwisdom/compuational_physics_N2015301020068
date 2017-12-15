@@ -42,25 +42,25 @@ And the power spectrum is given by
 
 
 # 4. Code
-Code for [Displacement of Waves on An Ideal String](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/14.1.py)&[Animation of Displacements of two different Initial Wavepackets and their combination](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/14.2.py)  
-Code for [Frequency Spectrum of Waves on a String](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/14.3.py)  
+Code for [Displacement of Waves on An Ideal String](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/source1)&[Animation of Displacements of two different Initial Wavepackets and their combination](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/source2)  
+Code for [Frequency Spectrum of Waves on a String](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/source3)  
 
 # 5. Running and Analysis
 ## 5.1  Displacement of Waves on An Ideal String
 If the initial wave packet is ![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3De%5E%7B-1000%5Ctimes%28x-0.3%29%5E2%7D), the result is:  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_1.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_1%20(3).png)  
 The motion that changes with time step can be shown below:  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/gif/anim1.gif)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/anim1.gif)  
 
 If the initial wave packet is ![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3D-2e%5E%7B-300%5Ctimes%28x-0.6%29%5E2%7D), the result is:  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_2.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_2%20(2).png)  
 The motion that changes with time step can be shown below:  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/gif/anim2.gif)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/anim2.gif)  
 
 If the initial wave packet is ![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3De%5E%7B-1000%5Ctimes%28x-0.3%29%5E2%7D-2e%5E%7B-300%5Ctimes%28x-0.6%29%5E2%7D), the result is:  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_3.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_3%20(2).png)  
 The motion that changes with time step can be shown below:  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/gif/anim3.gif)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/anim3.gif)  
 
 Besides, we can draw them together, here we have:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/gif/anim4.gif)  
@@ -70,16 +70,16 @@ From the results above, we can draw the conclusion that when there are two Gauss
 ## 5.2Frequency Spectrum of Waves on a Gaussian-excited String
 Suppose the initial wavepacket is ![](http://latex.codecogs.com/gif.latex?y_o%28x%29%3Dexp%5B-1000%5Ctimes%28x-x_%7Bexcite%7D%29%5E2%5D). And the total length of the string is 1 unit.  
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_4.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_4%20(2).png)  
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.1)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_5.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_5%20(2).png)  
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_6.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_6%20(2).pngg)  
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_7.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_7%20(2).png)  
 
 because ![](http://latex.codecogs.com/gif.latex?%5Clambda%20f%3Dc%2C%5Clambda%20%3D2L/m%2Cm%5Cin%20N), we have the possible frequencies as ![](http://latex.codecogs.com/gif.latex?f%3Dmc/%282L%29%3D150mHz). This explains why the peaks in the spectral analysis in the above figures occur at regularly spaced frequencies. Each of the peaks correspond to one value of interger m. But some frequancies are missing and this can be traced to the operation of Fourier Transformation.  
 Besides, the symmetry of the initial wavepacket can cause certain frequencies to be supressed. The power spectrum of ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) can illustrate this clearly.  
@@ -91,13 +91,13 @@ The initial wavepacket is
   
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05)  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_8.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_8%20(2).png)  
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_9.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure9%20(2).png)  
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_10.png)  
+![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_10.png)  
 
 There exists one frequency with which the power is greatly excessive of others.  
 
