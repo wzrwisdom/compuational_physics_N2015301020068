@@ -85,22 +85,6 @@ because ![](http://latex.codecogs.com/gif.latex?%5Clambda%20f%3Dc%2C%5Clambda%20
 Besides, the symmetry of the initial wavepacket can cause certain frequencies to be supressed. The power spectrum of ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) can illustrate this clearly.  
 
 
-## 5.3Frequency Spectrum of Waves on a String with Two Straight Lines At Start
-The initial wavepacket is  
-![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dy_0%28i%5CDelta%20x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20x/x_%7Bexcite%7D%260%3Cx%3C%20x_%7Bexcite%7D%20%5C%5C%20%28x-1%29/%28x_%7Bexcite%7D-1%29%20%26%20x_%7Bexcite%7D%3Cx%3C1%20%5Cend%7Bmatrix%7D%5Cright.).  
-  
-
-When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05)  
-![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_8%20(2).png)  
-
-When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
-![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure9%20(2).png)  
-
-When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
-![](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/figure_10.png)  
-
-There exists one frequency with which the power is greatly excessive of others.  
-
 
 # 6. Acknowledgement and Reference
 - codecogs(http://latex.codecogs.com/)  
