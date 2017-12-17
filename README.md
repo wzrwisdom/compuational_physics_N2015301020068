@@ -10,6 +10,6 @@
 - [x] [期中作业：pygame小游戏---打砖块]
 - [x] [Exercise_10:Chapter 4 the three-body problem](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise_10/Exercise_10.md)
 - [x] [Exercise_11:Chapter 5 ](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise%2011/Exercise11.md)
-- [ ] [Exercise_13:Chapter 5 problem 5.7: The Jacobi method v.s. The SOR algorithm]()
+- [ ] [Exercise_12:Chapter 6](https://github.com/wzrwisdom/compuational_physics_N2015301020068/blob/master/Exercise12/Exercise12.md)
 - [ ] [Exercise_13:Chapter 6 problem 6.15: The realistic string problem]()
 - [ ] [Final Project: 用轨道能量分析Kirkwood Gap的缝宽]()
